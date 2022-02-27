@@ -40,4 +40,4 @@ kMat_th = [cos(theta) sin(theta) 0;-sin(theta) cos(theta) 0; 0 0 1];
 three13 = kMat_ph * iMat_th * kMat_ps;
 three13 = simplify(three13);
 
-Three13_trans = inv(three13);
+Three13_trans = inv(three13) % This is [xd1 yd1 zd1]!
